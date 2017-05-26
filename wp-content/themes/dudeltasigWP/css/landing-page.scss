@@ -1,0 +1,425 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body.dudeltasig {
+  a {
+    color: darkgreen !important;
+  }
+}
+
+.dspTopLeft{
+  font-size: 1.5em !important;
+  color: darkgreen !important;
+  text-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+}
+
+.inView{
+  animation: fadeIn 1s;
+}
+
+.pageDescription{
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.75em;
+}
+
+.imageContainer{
+  padding: 2vh 0 !important;
+}
+.sameHeight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.donateBanner{
+  padding: 50px 0 !important;
+}
+
+.donateBannerBtn{
+  padding: 50px 0;
+}
+#bitnami-banner{
+  display: none !important;
+}
+
+ul {
+  line-height: 10px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  //overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.topnav {
+  font-size: 14px;
+  padding: 0 50px;
+}
+.navbar{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.navbar-brand{
+  line-height: 2.5em !important;
+}
+.navbar-header{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.intro-header {
+  /*height: 96%;*/
+  text-align: center;
+  color: #f8f8f8;
+  background: url(http://res.cloudinary.com/dvbijpnfw/image/upload/v1471546033/textureBGEdit_jh5qfs.jpg) no-repeat center center;
+  background-size: cover;
+}
+.video-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.0;
+  z-index: 1;
+}
+.video-wrap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /*top: 50px;*/
+  overflow: hidden;
+}
+.bg-video {
+  height: 100%;
+  width: auto;
+  overflow-y: hidden;
+  z-index: -999;
+  -webkit-transform: scaleX(2);
+  -moz-transform: scaleX(2);
+}
+.intro-container{
+  height: inherit;
+  position: relative;
+  z-index: 2;
+}
+.intro-message {
+  height: 100%;
+  position: relative;
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background: url(http://res.cloudinary.com/dvbijpnfw/image/upload/v1471500066/sunset-sailingCropped_o3kwcr.jpg) no-repeat center center;
+  background-size: cover;
+}
+.banner2 {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background:
+  linear-gradient(
+                  rgba(8, 163, 31, 0.45),
+                  rgba(8, 163, 31, 0.45)
+  ),
+  url(http://res.cloudinary.com/dvbijpnfw/image/upload/v1471500376/sunset-sailingCroppedBW_ixaipl.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 3em;
+}
+.banner2 h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-size: 3em;
+}
+.banner2 h3 {
+  margin: 5px 0 0 0;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+
+
+}
+
+
+
+@media(max-width:767px) {
+    .banner{
+      h2{
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+      }
+    }
+    ul.banner-social-buttons{
+      li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+      }
+    }
+
+    ul.banner-social-buttons {
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message {
+      h1 {
+        font-size: 3em;
+      }
+    }
+
+    ul.intro-social-buttons{
+      li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+      }
+
+    }
+
+    ul.intro-social-buttons {
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+  .iframeContainer{
+
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 667px) {
+    html{
+        margin-top: 0px !important;
+    }
+  body{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    overflow-x: hidden;
+  }
+
+  .navbar-fixed-top{
+    margin-bottom: 0px !important;
+  }
+  .topnav{
+    padding: 5px 25px !important;
+  }
+  .navbar-collapse.collapse.in{
+    font-size: 2em !important;
+    li{
+      margin: 1em 0!important;
+      text-align: center!important;
+      border-bottom: 1px solid rgba(0,0,0,0.2)!important;
+    }
+  }
+    .dspTopLeft
+    {
+        font-size: 2.5em;
+    }
+
+    .video-overlay{
+        display: none !important;
+    }
+    .video-wrap{
+        display: none !important;
+    }
+
+    .container-fluid{
+        margin: 25px 0px !important;
+    }
+
+    .banner2{
+        padding: 25px 0px;
+
+        h2{
+            font-size: 2em;
+        }
+        h3{
+           font-size: 1em;
+        }
+
+        .banner-social-buttons{
+          width: 100%;
+          margin-top: 1em;
+        }
+    }
+  .pageDescription{
+      font-size: 1.35em;
+  }
+  .section-heading{
+    font-size: 1.5em;
+  }
+  .imageContainer{
+    padding: 7% 4% 7% 0% !important;
+  }
+
+  #slider1{
+    width: 90vw;
+  }
+  .gs-slide-content{
+    background-size: contain !important;
+  }
+
+  .gs-button-tray{
+    display: none !important;
+  }
+
+}
+
