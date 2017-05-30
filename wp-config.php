@@ -18,9 +18,6 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-
 
 if(strpos($_SERVER['HTTP_HOST'],'localhost') !== false || strpos($_SERVER['HTTP_HOST'], '127.0.0.1') !== false)
 {
@@ -32,6 +29,10 @@ else
     //PROD
     $GLOBALS['IS_PROD'] = true;
 }
+
+
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
 
 if(!$GLOBALS['IS_PROD'])
 {
