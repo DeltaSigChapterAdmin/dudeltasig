@@ -22,11 +22,7 @@
 /** The name of the database for WordPress */
 
 
-<<<<<<< HEAD
-if(strpos($_SERVER['HTTP_HOST'],'localhost') !== false || strpos($_SERVER['HTTP_HOST'],'127.0.0.1') !== false)
-=======
 if(strpos($_SERVER['HTTP_HOST'],'localhost') !== false || strpos($_SERVER['HTTP_HOST'], '127.0.0.1') !== false)
->>>>>>> 4b6aa88ec15681a6eec30cd5d42c76e7d164ce63
 {
     //DEV
     $GLOBALS['IS_PROD'] = false;
